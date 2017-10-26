@@ -1,0 +1,25 @@
+{
+  "name": "nodebb-plugin-category-showsubtopics",
+  "version": "0.1.0",
+  "description": "A NodeBB plugin . You can get topics from current category and all sub-categories",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the7-pw/nodebb-plugin-category-showsubtopics.git"
+  },
+  "keywords": [
+    "nodebb"
+  ],
+  "author": "the7",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/the7-pw/nodebb-plugin-category-showsubtopics/issues"
+  },
+  "homepage": "https://github.com/the7-pw/nodebb-plugin-category-showsubtopics#readme",
+  "nbbpm": {
+    "compatibility": "^1.6.0"
+  }
+}
