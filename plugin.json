@@ -1,0 +1,18 @@
+{
+	"id": "nodebb-plugin-category-showsubtopics",
+	"url": "https://github.com/the7-pw/nodebb-plugin-category-showsubtopics",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "filter:categories.getTopicIds", "method": "getTopicIds"
+		},
+		{
+			"hook": "filter:categories.getPinnedTids", "method": "getPinnedTids"
+		}
+	],
+	"staticDirs": {},
+	"less": [],
+	"scripts": [],
+	"acpScripts": [],
+	"templates": ""
+}
